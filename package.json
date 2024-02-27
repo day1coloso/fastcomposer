@@ -1,7 +1,14 @@
 {
   "name": "@day1coloso/fastcomposer",
-  "version": "0.0.1",
+  "version": "0.0.3-beta.3",
   "author": "day1coloso",
+  "main": "dist/fastcomposer.umd.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
